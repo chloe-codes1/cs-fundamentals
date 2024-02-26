@@ -1,6 +1,9 @@
 # cs-fundamentals
 
-A set of practice and demo code of Accelerated Computer Science Fundamentals Specialization on Coursera
+> [Accelerated Computer Science Fundamentals Specialization](https://www.coursera.org/specializations/cs-fundamentals)
+> 
+
+Data Structures and Algorithms in C++. Learn fundamentals of computer science while implementing efficient data structures in C++.
 
 <br>
 

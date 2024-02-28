@@ -47,6 +47,7 @@ test
 
 # Local History for Visual Studio Code
 .history/
+.DS_STORE
 
 # Built Visual Studio Code Extensions
 *.vsix

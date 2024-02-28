@@ -1,4 +1,5 @@
 #include <iostream>
+#include "Pair.h"
 
 /* Class Pair has already been declared
  * as shown in the following comments:
@@ -13,15 +14,6 @@
  *
  * Implement its member functions below.
  */
-
-class Pair
-{
-public:
-  int *pa, *pb;
-  Pair(int, int);
-  Pair(const Pair &);
-  ~Pair();
-};
 
 Pair::Pair(int a, int b)
 {

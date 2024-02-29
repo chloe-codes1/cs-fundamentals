@@ -10,6 +10,7 @@ Data Structures and Algorithms in C++. Learn fundamentals of computer science wh
 ### 1. Object-Oriented Data Structures in C++
 
 - Week 2 - [Hello World Project](/Object-Oriented_Data_Structures_in_C++/project/01_hello_world/)
+- Week 4 - [Image Transform Project](/Object-Oriented_Data_Structures_in_C++/project/02_image_transform/)
 
 ### 2. Ordered Data Structures
 

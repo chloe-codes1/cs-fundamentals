@@ -12,13 +12,11 @@ Create a class called Pair that has two public integer member variables named "a
 
 #include <iostream>
 
-class Pair
-{
-public:
+class Pair {
+ public:
   int a, b;
 
-  int sum()
-  {
+  int sum() {
     return a + b;
   }
 };
@@ -27,17 +25,13 @@ public:
 // Click Run to see what happens.
 // When you're sure you're finished, click Submit for grading
 // with our additional hidden tests.
-int main()
-{
+int main() {
   Pair p;
   p.a = 100;
   p.b = 200;
-  if (p.a + p.b == p.sum())
-  {
+  if (p.a + p.b == p.sum()) {
     std::cout << "Success!" << std::endl;
-  }
-  else
-  {
+  } else {
     std::cout << "p.sum() returns " << p.sum() << " instead of " << (p.a + p.b) << std::endl;
   }
   return 0;

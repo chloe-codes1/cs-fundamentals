@@ -1,4 +1,5 @@
 #include <iostream>
+
 #include "Pair.h"
 
 /* Class Pair has already been
@@ -27,27 +28,23 @@
  * member variable sum with their sum.
  */
 
-Pair::Pair(int a, int b)
-{
+Pair::Pair(int a, int b) {
   pa = new int(a);
   pb = new int(b);
 }
 
-Pair::Pair(const Pair &obj)
-{
+Pair::Pair(const Pair &obj) {
   pa = new int(*obj.pa);
   pb = new int(*obj.pb);
 }
 
-Pair::~Pair()
-{
+Pair::~Pair() {
   delete pa;
   delete pb;
 }
 
-class sumPair : public Pair
-{
-public:
+class sumPair : public Pair {
+ public:
   int sum;
   sumPair(int, int);
 };
@@ -60,8 +57,7 @@ sumPair::sumPair(int a, int b) : Pair(a, b), sum(a + b) {}
  * sumPair constructor.
  */
 
-int main()
-{
+int main() {
   sumPair sp(15, 16);
   std::cout << "sp(15,16).sum =" << sp.sum << std::endl;
   return 0;

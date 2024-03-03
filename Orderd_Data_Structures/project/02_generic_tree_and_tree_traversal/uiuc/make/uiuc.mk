@@ -1,12 +1,12 @@
 
 # University of Illinois
-# CS 400 - MOOC 2 - Week 1
+# CS 400 - MOOC 2 - Week 3
 
 # Original Makefile created by Wade Fagen-Ulmschneider <waf@illinois.edu>
 # A few tweaks for CS 400 by Eric Huber
 
-ZIP_FILE = LinkedList_submission.zip
-COLLECTED_FILES = LinkedListExercises.h
+ZIP_FILE = GenericTree_submission.zip
+COLLECTED_FILES = GenericTreeExercises.h
 
 # Add standard object files (HSLAPixel, PNG, and LodePNG)
 OBJS +=  
@@ -37,13 +37,11 @@ STDLIBVERSION = $(STDLIBVERSION_GCC)
 endif
 WARNINGS = -pedantic -Wall -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable
 # ASANFLAGS = -fsanitize=address -fno-omit-frame-pointer
-# NO_COPY_ELISION = -fno-elide-constructors
-CXXFLAGS = $(CS400) $(STDVERSION) $(STDLIBVERSION) -g -O0 $(WARNINGS) -MMD -MP -msse2 -c $(ASANFLAGS) $(NO_COPY_ELISION)
-LDFLAGS = $(CS400) $(STDVERSION) $(STDLIBVERSION) -lpthread $(ASANFLAGS) $(NO_COPY_ELISION)
+CXXFLAGS = $(CS400) $(STDVERSION) $(STDLIBVERSION) -g -O0 $(WARNINGS) -MMD -MP -msse2 -c $(ASANFLAGS)
+LDFLAGS = $(CS400) $(STDVERSION) $(STDLIBVERSION) -lpthread $(ASANFLAGS)
 
 ifneq ($(strip $(ASANFLAGS)),)
-# This is displayed if ASANFLAGS is not blank.
-ASANWARNING = "\n >>>>>>>>>> Note: ASAN is in use. May not be supported on Cloud9. <<<<<<<<<<"
+ASANWARNING = "\n *** ASAN is in use ***"
 endif
 
 #  Rules for first executable

@@ -14,6 +14,7 @@ Data Structures and Algorithms in C++. Learn fundamentals of computer science wh
 
 ### 2. Ordered Data Structures
 
-- Week 1 - [Linked List](/Orderd_Data_Structures/project/01_linked_list/)
+- Week 1 - [Linked List and Merge Sort](/Orderd_Data_Structures/project/01_linked_lists_and_merge_sort/)
+- Week 3 - [GenericTree and Tree Traversal](/Orderd_Data_Structures/project/02_generic_tree_and_tree_traversal/)
 
 ### 3. Unordered Data Structures

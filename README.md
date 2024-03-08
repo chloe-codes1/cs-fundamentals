@@ -20,3 +20,4 @@ Data Structures and Algorithms in C++. Learn fundamentals of computer science wh
 ### 3. Unordered Data Structures
 
 - Week 1 - [Unordered Map](/Unordered_Data_Structures/project/01_unordered_map/)
+- Week 3 - [Graph Search](/Unordered_Data_Structures/project/02_graph_search/)
